@@ -1,0 +1,14 @@
+ale
+lightline.vim
+neobundle.vim
+neocomplete.vim
+nerdcommenter
+nerdtree
+rust.vim
+supertab
+vim-fugitive
+vim-indent-guides
+vim-minimap
+vim-multiple-cursors
+vim-table-mode
+vimfiler.vim

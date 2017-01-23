@@ -1,0 +1,44 @@
+
+  set $workspace1 "一"
+  set $workspace2 "二"
+  set $workspace3 "三"
+  set $workspace4 "四"
+  set $workspace5 "五"
+  set $workspace6 "六"
+  set $workspace7 "七"
+  set $workspace8 "八"
+  set $workspace9 "九"
+  set $workspace10 "十"
+
+# Window colours:
+
+   client.focused              		#12fee7 #12fee7 #ebdbb2 #12fee7
+   client.focused_inactive     		#C2CBFF #C2CBFF #ebdbb2 #C2CBFF
+   client.unfocused            		#C2CBFF #C2CBFF #ebdbb2 #C2CBFF
+   client.urgent               		#F97EC6 #F97EC6 #ee0000 #F97EC6
+
+
+#Bar  
+  bar {
+    strip_workspace_numbers no
+    position top
+    height 25
+    status_command i3blocks -c ~/.config/i3/i3blocks.conf
+    separator_symbol "|"
+    tray_output none
+    font pango: Tamsyn, Siji 11
+
+
+  colors {
+    background #21222c
+    statusline #C2CBFF
+    separator #ffffff
+	
+    					#border  	background 		text
+    focused_workspace 	#F97EC6		#221d3b 		#ffffff
+    active_workspace 	#F97EC6 	#221d3b 		#ffffff
+    inactive_workspace 	#221d3b 	#221d3b 		#ffffff
+    urgent_workspace 	#bf616a 	#F97EC6 		#ffffff
+    }
+   }
+

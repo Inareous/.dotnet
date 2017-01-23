@@ -1,0 +1,173 @@
+{
+	"name": "New 0",
+	"type": 1,
+	"state": 0,
+	"info": {
+		"category": {
+			"hosts": [
+				".edu",
+				".idv"
+			],
+			"schemes": [
+				"ftps",
+				"magnet"
+			],
+			"file-exts": [
+				"torrent",
+				"metalink"
+			],
+			"active-limit": 3,
+			"finished-limit": 300,
+			"recycled-limit": 300
+		},
+		"common": {
+			"folder": "\/home\/megu",
+			"connect-timeout": 15,
+			"transmit-timeout": 30,
+			"retry-delay": 6,
+			"retry-limit": 99,
+			"retry-count": 0,
+			"max-connections": 1,
+			"max-upload-speed": 0,
+			"max-download-speed": 0,
+			"timestamp": 1
+		}
+	},
+	"children": [
+		{
+			"name": "UpdatePack7R2-16.12.20.exe",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 693336608,
+					"total": 693336608,
+					"elapsed": 2546,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1484738184,
+					"completed-time": 1484742436,
+					"messages": [
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/update7.simplix.info\/UpdatePack7R2-16.12.20.exe",
+					"file": "UpdatePack7R2-16.12.20.exe",
+					"folder": "\/home\/megu",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/home\/megu\/UpdatePack7R2-16.12.20.exe.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/home\/megu\/UpdatePack7R2-16.12.20.exe",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "UpdatePack7R2-17.1.15.exe",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 693245608,
+					"total": 693245608,
+					"elapsed": 2424,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1484738126,
+					"completed-time": 1484742314,
+					"messages": [
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/update7.simplix.info\/UpdatePack7R2-17.1.15.exe",
+					"file": "UpdatePack7R2-17.1.15.exe",
+					"folder": "\/home\/megu",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/home\/megu\/UpdatePack7R2-17.1.15.exe.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/home\/megu\/UpdatePack7R2-17.1.15.exe",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		}
+	]
+}
+
